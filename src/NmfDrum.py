@@ -14,8 +14,8 @@ def NmfDrum(filePath, method='PfNmf', param=None):
         
         param = {
             'WD': data['param'][0][0][0],
-            'windowSize': 2048,
-            'hopSize': 512,
+            'windowSize': 2048, # 2048
+            'hopSize': 512, #512
             'lambda': [0.12, 0.12, 0.12],
             'order': [0.1, 0.1, 0.1],
             'maxIter': 20,
