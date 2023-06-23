@@ -5,14 +5,10 @@ import csv
 import os
 import numpy as np
 
-# Load the iris dataset
-AF_dataset = []
-ADF_dataset = []
-TF_dataset = []
 
 # get all 576 audio samples from strike and buzz roll folder
 # get random 576 audio samples from flam and drag folder
-# for each audio sample get AF, ADF, TF features and append to features dataset
+# for each audio sample get the timbre features and append to CSV file
 training_set_path = "Training_set"
 
 file_name = 'timbre.csv'
